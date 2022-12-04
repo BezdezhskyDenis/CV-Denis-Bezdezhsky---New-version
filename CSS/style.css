@@ -71,10 +71,7 @@ h2,
 h3 {
   color: #34a56f;
 }
-.top-container {
-  background-color: #e0e5e8;
-  display: block;
-}
+
 .top_container_elements {
   width: 75%;
   padding-top: 100px;
@@ -89,17 +86,16 @@ p {
   line-height: 1.5;
 }
 
-.text_image {
-  float: left;
-  margin-right: 50px;
-}
-
 .main_title {
   margin-top: 100px;
   font-size: 1.6rem;
-  width: 50%;
-  float: right;
-  margin-right: 20px;
+}
+
+.top-container{
+  padding-top: 50px;
+  padding-bottom: 50px;
+  height: auto;
+  min-height: 500px;
 }
 
 .middle-container {
@@ -107,4 +103,20 @@ p {
   background-color: black;
   color: #e0e5e8;
   margin-top: 0;
+}
+
+.skills{
+  padding-top: 50px;
+  padding-bottom: 50px;
+  height: auto;
+  min-height: 400px;
+}
+
+.container-title{
+  margin-block-start: 80px;
+}
+
+h3{
+  font-size: 2.5rem;
+
 }
