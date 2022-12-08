@@ -40,5 +40,6 @@
   .flip_box_back {
     /*background-color: dodgerblue;*/
     color: white;
+    background-color: black;
     transform: rotateY(180deg);
   }
